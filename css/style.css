@@ -1,0 +1,69 @@
+.animation{
+/*position: relative;
+*/}
+
+.background{
+position: relative;
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+
+}
+.wolf{
+	position: absolute;
+	top:350px;
+	right: 0%;
+	width: 400px;
+	height:600px;
+	/*transform: translate(560px;300px);*/
+	animation: mymove 8s infinite;
+	z-index: 3;
+}
+
+@keyframes mymove {
+	0%{top:350px;}
+	100%{right: 1200px;}
+}
+
+.bird{
+position: absolute;
+top: 150px;
+right: 0px;
+width: 80px;
+height: 200px;
+animation: bird 15s infinite;
+
+}
+@keyframes bird {
+	0% { top: 150px; }
+	100%{ right:1450px;}
+
+}
+.yvavi{
+	position: absolute;
+	top:450px;
+	left: 350px;
+	width: 80px;
+	height: 200px;
+	animation: yvavi 5s infinite;
+	z-index: 2;
+}
+
+@keyframes yvavi{
+	0%{top:500px;}
+	100%{top:300px;}
+}
+.birdd{
+	position: absolute;
+	top:50px;
+	left:0px;
+	height: 100px;
+	width: 150px;
+	animation: birdd 15s infinite;
+
+}
+
+@keyframes birdd {
+	0%{ top:50px; }
+	100%{left: 1400px;}
+}

@@ -11,7 +11,7 @@ background-repeat: no-repeat;
 }
 .wolf{
 	position: absolute;
-	top:350px;
+	top:300px;
 	right: 0%;
 	width: 400px;
 	height:600px;
@@ -21,7 +21,7 @@ background-repeat: no-repeat;
 }
 
 @keyframes mymove {
-	0%{top:350px;}
+	0%{top:300px;}
 	100%{right: 1200px;}
 }
 
@@ -39,20 +39,7 @@ animation: bird 15s infinite;
 	100%{ right:1450px;}
 
 }
-.yvavi{
-	position: absolute;
-	top:450px;
-	left: 350px;
-	width: 80px;
-	height: 200px;
-	animation: yvavi 5s infinite;
-	z-index: 2;
-}
 
-@keyframes yvavi{
-	0%{top:500px;}
-	100%{top:300px;}
-}
 .birdd{
 	position: absolute;
 	top:50px;
